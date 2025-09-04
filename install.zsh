@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-$DOTFILES_DIR="$XDG_CONFIG_HOME/dotfiles"
+DOTFILES_DIR="$XDG_CONFIG_HOME/dotfiles"
 echo "Cloning dotfiles to directory: $DOTFILES_DIR"
 git clone --recursive https://github.com/heyallnorahere/dot.git $DOTFILES_DIR
 
