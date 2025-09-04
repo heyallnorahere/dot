@@ -11,7 +11,7 @@ fi
 
 echo "Installing dotfiles..."
 
-echo "source \"$XDG_CONFIG_HOME/zshrc\"" >> $XDG_CONFIG_HOME/zsh/.zshrc
-echo "geninclude $XDG_CONFIG_HOME/kitty.py" >> $XDG_CONFIG_HOME/kitty/kitty.conf
+echo "source \"$DOTFILES_DIR/zshrc\"" >> $XDG_CONFIG_HOME/zsh/.zshrc
+echo "geninclude $DOTFILES_DIR/kitty.py" >> $XDG_CONFIG_HOME/kitty/kitty.conf
 
 echo "Dotfiles installed!"
