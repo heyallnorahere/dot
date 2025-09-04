@@ -3,4 +3,4 @@
 SCRIPT=$(realpath $0)
 SCRIPT_DIR=$(realpath $(dirname $SCRIPT))
 
-# todo: actual dotfiles! im stupid
+echo $SCRIPT_DIR
