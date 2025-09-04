@@ -5,7 +5,7 @@ echo "Cloning dotfiles to directory: $DOTFILES_DIR"
 git clone --recursive https://github.com/heyallnorahere/dot.git $DOTFILES_DIR
 
 if [[ $? -ne 0 ]]; then
-    echo "Failed to clone dotfiles!" >&2
+    >&2 echo "Failed to clone dotfiles!"
     exit 1
 fi
 
