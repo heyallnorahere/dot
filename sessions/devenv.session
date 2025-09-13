@@ -1,0 +1,15 @@
+enabled_layouts tall
+layout tall
+cd ~/src
+
+# neovim
+launch --bias=25 nvim
+
+# cmatrix
+launch sh -c "cat ~/.config/dotfiles/run-cmatrix.sh | sh"
+
+# main shell
+launch --bias=20 zsh
+
+# cava
+launch cava

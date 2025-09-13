@@ -1,3 +1,0 @@
-[submodule "tmux-sessions"]
-	path = tmux-sessions
-	url = https://github.com/heyallnorahere/tmux-sessions.git

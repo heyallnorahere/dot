@@ -3,4 +3,6 @@
 SCRIPT=$(realpath $0)
 SCRIPT_DIR=$(realpath $(dirname $SCRIPT))
 
-# todo: actual dotfiles
+if [[ $- == *i* ]]; then
+    fastfetch --logo-type kitty-icat
+fi

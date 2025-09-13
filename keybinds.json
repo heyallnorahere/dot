@@ -1,0 +1,4 @@
+{
+    "ctrl+v": "nth_window 0",
+    "ctrl+a": "nth_window 2"
+}
